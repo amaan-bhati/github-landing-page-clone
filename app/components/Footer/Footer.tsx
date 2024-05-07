@@ -73,36 +73,13 @@ const Footer = (props: Props) => {
       </div>
       <div className='bg-[#161b22]'>
         <div className='max-w-[1280px] mx-auto text-[12px] md:flex flex-row-reverse py-6 justify-between items-center px-4'>
-          <ul className='flex items-center max-md:mb-4  '>
-            <li className='mr-4'>
-              <a href=""><img src="https://GitHub.GitHubassets.com/images/modules/site/icons/footer/twitter.svg" height="18" width="22" className="d-block" loading="lazy" decoding="async" alt="Twitter icon" /></a>
-            </li>
-            <li className='mr-4'>
-              <a href=""><img src="https://GitHub.GitHubassets.com/images/modules/site/icons/footer/facebook.svg" height="18" width="22" className="d-block" loading="lazy" decoding="async" alt="Twitter icon" /></a>
-            </li>
-            <li className='mr-4'>
-              <a href=""><img src="https://GitHub.GitHubassets.com/images/modules/site/icons/footer/linkedin.svg" height="18" width="22" className="d-block" loading="lazy" decoding="async" alt="Twitter icon" /></a>
-            </li>
-            <li className='mr-4'>
-              <a href=""><img src="https://GitHub.GitHubassets.com/images/modules/site/icons/footer/youtube.svg" height="18" width="22" className="d-block" loading="lazy" decoding="async" alt="Twitter icon" /></a>
-            </li>
-            <li className='mr-4'>
-              <a href=""><img src="https://GitHub.GitHubassets.com/images/modules/site/icons/footer/twitch.svg" height="18" width="22" className="d-block" loading="lazy" decoding="async" alt="Twitter icon" /></a>
-            </li>
-            <li className='mr-4'>
-              <a href=""><img src="https://GitHub.GitHubassets.com/images/modules/site/icons/footer/tiktok.svg" height="18" width="22" className="d-block" loading="lazy" decoding="async" alt="Twitter icon" /></a>
-            </li>
-            <li>
-              <a href=""><img src="https://GitHub.GitHubassets.com/images/modules/site/icons/footer/GitHub-mark.svg" height="18" width="22" className="d-block" loading="lazy" decoding="async" alt="Twitter icon" /></a>
-            </li>
+         <div className='center'>
+          <ul className='flex justify-center items-center mb-4 sm:mb-0 text-[#7d8590] flex-wrap' >
+           
+      <li className="mr-3">Made with ❤️ & ☕ by <a href="https://amanbhati.vercel.app">Amaan</a></li>
+        
           </ul>
-          <ul className='flex items-center mb-4 sm:mb-0 text-[#7d8590] flex-wrap' >
-            <li className="mr-3 ">© 2024 GitHub, Inc.</li>
-            <li className='mr-3 '><a href="">Terms</a></li>
-            <li className='mr-3 '><a href="">Privacy (Updated 08/2022)</a></li>
-            <li className='mr-3 '><a href="">Sitemap</a></li>
-            <li className='mr-3 '><a href="">What is Git?</a></li>
-          </ul>
+          </div>
         </div>
       </div>
       </div>
